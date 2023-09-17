@@ -23,7 +23,7 @@ rm -rf hardware/xiaomi && git clone https://github.com/JYRRC/hardware_xiaomi.git
 
 # Camera
 echo 'Cloning Leica Camera'
-git clone https://gitlab.com/JYRRC/proprietary_vendor_xiaomi_camera.git -b topaz-leica vendor/xiaomi/camera
+git clone https://gitlab.com/JYRRC/proprietary_vendor_xiaomi_camera.git -b 13 vendor/xiaomi/camera
 
 
 echo 'delete vendorsetup.sh from device tree once this is done'
