@@ -25,5 +25,9 @@ rm -rf hardware/xiaomi && git clone https://github.com/JYRRC/hardware_xiaomi.git
 echo 'Cloning Leica Camera'
 git clone https://gitlab.com/JYRRC/proprietary_vendor_xiaomi_camera.git -b 13 vendor/xiaomi/camera
 
+# Viper
+echo 'Cloning Viper4Audio'
+git clone https://github.com/JYRRC/packages_apps_ViPER4AndroidFX.git -b v4a packages/apps/ViPER4AndroidFX
+
 
 echo 'delete vendorsetup.sh from device tree once this is done'
