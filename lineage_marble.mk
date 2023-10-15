@@ -21,8 +21,20 @@ TARGET_SUPPORTS_QUICK_TAP := true
 ## Device identifier
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := marble
-PRODUCT_MANUFACTURER := Xiaomi
+PRODUCT_MANUFACTURER := HUAWEI
 PRODUCT_NAME := lineage_marble
+
+PRODUCT_BRAND := Huawei
+PRODUCT_MODEL := DBY-W09
+
+PRODUCT_SYSTEM_NAME := ohosqssi
+PRODUCT_SYSTEM_DEVICE := ohosqssi
 
 # GMS
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+# MindGapps Core
+$(call inherit-product-if-exists, vendor/gapps/arm64/arm64-vendor.mk)
+
+# HMS Core
+$(call inherit-product-if-exists, vendor/hms/hms-vendor.mk)
