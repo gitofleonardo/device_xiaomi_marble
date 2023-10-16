@@ -44,8 +44,8 @@ static const variant_info_t marble_info = {
 
     .brand = "Huawei",
     .device = "marble",
-    .marketname = "Redmi Note 12 Turbo",
-    .model = "23049RAD8C",
+    .marketname = "HUAWEI Mate50pro",
+    .model = "CET-AL00",
     .mod_device = "marble_global", // Fixed miuicamera crash
     .build_fingerprint = FINGERPRINT_CN,
 };
