@@ -35,4 +35,5 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 $(call inherit-product-if-exists, vendor/gapps/arm64/arm64-vendor.mk)
 
 # HMS Core
+TARGET_INCLUDE_AURORA := true
 $(call inherit-product-if-exists, vendor/hms/hms-vendor.mk)
