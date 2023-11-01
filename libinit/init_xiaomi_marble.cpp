@@ -42,7 +42,7 @@ static const variant_info_t marble_info = {
     .hwc_value = "CN",
     .sku_value = "",
 
-    .brand = "Huawei",
+    .brand = "Redmi",
     .device = "marble",
     .marketname = "Redmi Note 12 Turbo",
     .model = "23049RAD8C",
