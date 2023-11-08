@@ -29,9 +29,3 @@ TARGET_SUPPORTS_QUICK_TAP := true
 
 # MindGapps Core
 $(call inherit-product-if-exists, vendor/gapps/arm64/arm64-vendor.mk)
-
-# HMS Core
-TARGET_INCLUDE_AURORA := false
-TARGET_INCLUDE_HMS := false
-TARGET_INCLUDE_APP_GALLERY := true
-$(call inherit-product-if-exists, vendor/hms/hms-vendor.mk)
