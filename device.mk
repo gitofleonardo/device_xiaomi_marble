@@ -130,7 +130,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.aon@1.0.vendor \
     vendor.qti.hardware.camera.postproc@1.0.vendor
 
-$(call inherit-product-if-exists, vendor/xiaomi/camera/miuicamera.mk)
+#$(call inherit-product-if-exists, vendor/xiaomi/camera/miuicamera.mk)
 
 
 PRODUCT_COPY_FILES += \
